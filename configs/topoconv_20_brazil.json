@@ -1,0 +1,28 @@
+{
+  "Model_Setup":{
+    "epoch": 1000,
+    "dropout": 0.5,
+    "lr":0.0005,
+    "weight_decay": 5e-4,
+    "cuda": true,
+    "no_seed": false,
+    "seed": 123
+  },
+
+  "Data_params": {
+    "bias": true,
+    "has_fea": false,
+    "in_feature": 50,
+    "fdim": 100,
+    "hidden": 20,
+    "class_num": 4,
+    "edge_path" : "../data/brazil/brazil-airports.edgelist",
+    "topofea_path": "../data/brazil/brazil.topofea",
+    "NA3_path": "../data/brazil/brazil.NA3",
+    "label_path" : "../data/brazil/brazil.label",
+    "test_path" : "../data/brazil/test20.txt",
+    "train_path": "../data/brazil/train20.txt"
+
+  }
+
+}

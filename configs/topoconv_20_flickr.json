@@ -1,0 +1,28 @@
+{
+  "Model_Setup":{
+    "epoch": 1000,
+    "dropout": 0.5,
+    "lr":0.0005,
+    "weight_decay": 5e-4,
+    "cuda": true,
+    "no_seed": false,
+    "seed": 123
+  },
+
+  "Data_params": {
+    "bias": true,
+    "has_fea": true,
+    "in_feature": 100,
+    "hidden": 128,
+    "class_num": 70,
+    "edge_path" : "../data/coraml/coraml.edge",
+    "feature_path" : "../data/coraml/coraml.feature",
+    "topofea_path": "../data/coraml/coraml.topofea",
+    "NA3_path": "../data/coraml/coraml.NA3",
+    "label_path" : "../data/coraml/coraml.label",
+    "test_path" : "../data/coraml/test20.txt",
+    "train_path": "../data/coraml/train20.txt"
+
+  }
+
+}

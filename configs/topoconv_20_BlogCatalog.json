@@ -1,0 +1,28 @@
+{
+  "Model_Setup":{
+    "epoch": 1000,
+    "dropout": 0.5,
+    "lr":0.0005,
+    "weight_decay": 5e-4,
+    "cuda": true,
+    "no_seed": false,
+    "seed": 123
+  },
+
+  "Data_params": {
+    "bias": true,
+    "has_fea": true,
+    "in_feature": 100,
+    "hidden": 128,
+    "class_num": 6,
+    "edge_path" : "../data/BlogCatalog/BlogCatalog.edge",
+    "feature_path" : "../data/BlogCatalog/BlogCatalog.feature",
+    "topofea_path": "../data/BlogCatalog/BlogCatalog.topofea",
+    "NA3_path": "../data/BlogCatalog/BlogCatalog.NA3",
+    "label_path" : "../data/BlogCatalog/BlogCatalog.label",
+    "test_path" : "../data/BlogCatalog/test20.txt",
+    "train_path": "../data/BlogCatalog/train20.txt"
+
+  }
+
+}

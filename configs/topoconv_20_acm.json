@@ -1,0 +1,28 @@
+{
+  "Model_Setup":{
+    "epoch": 1000,
+    "dropout": 0.5,
+    "lr":0.0005,
+    "weight_decay": 5e-4,
+    "cuda": true,
+    "no_seed": false,
+    "seed": 123
+  },
+
+  "Data_params": {
+    "bias": true,
+    "has_fea": true,
+    "in_feature": 100,
+    "hidden": 128,
+    "class_num": 3,
+    "edge_path" : "../data/acm/acm_PAP.edge",
+    "feature_path" : "../data/acm/acm.feature",
+    "topofea_path": "../data/acm/acm.topofea",
+    "NA3_path": "../data/acm/acm.NA3",
+    "label_path" : "../data/acm/acm.label",
+    "test_path" : "../data/acm/test20.txt",
+    "train_path": "../data/acm/train20.txt"
+
+  }
+
+}

@@ -1,0 +1,28 @@
+{
+  "Model_Setup":{
+    "epoch": 5000,
+    "dropout": 0.5,
+    "lr":0.0005,
+    "weight_decay": 5e-4,
+    "cuda": true,
+    "no_seed": false,
+    "seed": 123
+  },
+
+  "Data_params": {
+    "bias": true,
+    "has_fea": true,
+    "in_feature": 50,
+    "fdim": 1703,
+    "hidden": 20,
+    "class_num": 5,
+    "edge_path" : "../data/new_data/cornell/cornell.edge",
+    "feature_path": "../data/new_data/cornell/cornell.feature",
+    "topofea_path": "../data/new_data/cornell/cornell.topofea{}",
+    "NA3_path": "../data/new_data/cornell/cornell.NA3",
+    "label_path" : "../data/new_data/cornell/cornell.label",
+    "test_path" : "../data/new_data/cornell/test20.txt",
+    "train_path": "../data/new_data/cornell/train20.txt"
+  }
+
+}
